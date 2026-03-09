@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resgistration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1> <br>
+    <p style="text-align: center;"> <mark>Please fill this form to register</mark> </p>
+    <form action="">
+        <h3>Personal Details</h3>
+        <table>
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth :</td>
+                <td>
+                    <input type="date" name="dob" >
+                </td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td><input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Other 
+                </td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td>
+                    <input type="email" name="Email" placeholder="Enter Email" >
+                </td>
+            </tr>
+            <tr>
+                <td>Phone number :</td>
+                <td>
+                    <input type="tel" name="Phone Number" placeholder="Enter Phone Number">
+                </td>
+            </tr>
+        </table>
+        <h3>Address Information</h3>
+        <table>
+            <tr>
+                <td>Address : </td>
+                <td>
+                    <textarea rows="4" cols="30" placeholder="Enter Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td><input type="text" placeholder="Enter City"></td>
+            </tr>
+            <tr>
+                <td>State :</td>
+                <td>
+                    <select >
+                        <option >Select State</option>
+                        <option >Chhattisgarh</option>
+                        <option >Uttar Pradesh</option>
+                        <option >Maharashtra</option>
+                        <option >Bihar</option>
+                        <option >Karnataka</option>
+                        <option >Gujarat</option>
+                        <option >Tamil Nadu</option>
+                        <option >Other</option>
+                       
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pin Code :</td>
+                <td>
+                    <input type="number" placeholder="Enter Pincode">
+                </td>
+            </tr>
+
+        </table>
+        <h3>Course Details</h3>
+        <table>
+            <tr>
+                <td>Course :</td>
+                <td>
+                <select>
+                    <option value="">Select Course</option>
+                    <option>Btech</option>
+                    <option>Mtech</option>
+                    <option>PHD</option>
+                    <option>M sc</option>
+                    <option>B SC</option>
+                    <option>Other</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Department :</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select Depatrment</option>
+                        <option value="">CSE</option>
+                        <option value="">IT</option>
+                        <option value="">ECE</option>
+                        <option value="">MECH</option>
+                        <option value="">CIVIL</option>
+                        <option value="">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Skills :</td>
+                <td>
+                    <input type="checkbox" name="C++" id="">C++
+                    <input type="checkbox" name="Python" id="">Python
+                    <input type="checkbox" name="HTML" id="">HTML
+                    <input type="checkbox" name="ML" id="">ML
+                    <input type="checkbox" name="Other" id="">Other
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <center>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear Form">
+        </center>
+    </form>
+</body>
+</html>
